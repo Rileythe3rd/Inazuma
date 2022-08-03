@@ -1,0 +1,5 @@
+name: InazumaPlugin
+main: me.rileythe3rd.inazuma.InazumaPlugin
+version: 1.0
+api-version: 1.19
+commands:
