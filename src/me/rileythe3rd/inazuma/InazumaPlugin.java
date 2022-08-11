@@ -11,7 +11,8 @@ private static InazumaPlugin plugin;
 	public void onEnable() {
 		plugin = this;
 		getServer().getPluginManager().registerEvents(new WaterListener(), this);
-		getServer().getPluginManager().registerEvents(new AnemoListener(), this);
+//		getServer().getPluginManager().registerEvents(new AnemoListener(), this);
+		getServer().getPluginManager().registerEvents(new ElectroListener(), this);
 	} 
 	
 	public void onDisable() {
